@@ -28,21 +28,18 @@ body {
 
 /*
  * =========================================
- * 3. LOGO (Golden Polishing Effect)
+ * 3. LOGO (Image)
  * =========================================
  */
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
     flex-basis: 33%; /* Give it space */
-    
-    /* "Golden vibrant polishing" effect */
-    background: linear-gradient(145deg, #ffd700, #f0c14b, #daa520, #f0c14b, #ffd700);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.logo img {
+    max-height: 60px;  /* Sets the max height. You can change 60px */
+    width: auto;       /* Keeps the logo from stretching */
+    vertical-align: middle; /* Helps align it in the header */
 }
 
 /*
